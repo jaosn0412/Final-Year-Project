@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lecture Moding</title>
+        <style>
+            .styled-table{
+                border-collapse: collapse;
+                margin: 25px 0;
+                font-size: 0.9em;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                min-width: 400px;
+                box-shadow: 0 0 20px rgba(0,0,0,0.15);
+            }
+
+            .styled-table thead tr {
+                background-color: #009879;
+                color: #ffffff;
+                text-align: center;
+            }
+
+            .styled-table th,
+            .styled-table td {
+                padding: 12px 15px;
+            }
+
+            .styled-table tbody tr {
+                border-bottom: 1px solid #dddddd;
+                text-align: center;
+            }
+
+            .styled-table tbody tr:nth-of-type(even) {
+                background-color: #f3f3f3;
+            }
+
+            .styled-table tbody tr:last-of-type {
+                border-bottom: 2px solid #009879;
+            }
+
+            .styled-table .func-butt-edit{
+                cursor: pointer;
+                padding: 16px 16px;
+                width: 70px;
+                border-radius: 10px;
+                font-family: 'Signika', sans-serif;
+                font-size: 15px;
+                background-color: rgb(230, 255, 0);
+                color: rgb(62, 8, 240);
+                border: none;
+            }
+
+            .styled-table .func-butt-delete{
+                cursor: pointer;
+                padding: 16px 16px;
+                width: 70px;
+                border-radius: 10px;
+                font-family: 'Signika', sans-serif;
+                font-size: 15px;
+                background-color: rgb(230, 255, 0);
+                color: rgb(255, 9, 210);
+                border: none;
+            }
+        </style>
+    </head>
+    <body>
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th>Lecturer Name</th>
+                    <th>Lecturer Age</th>
+                    <th>Lecturer Course Focus</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ivan Tan</td>
+                    <td>21</td>
+                    <td>Safety Program</td>
+                    <td class="func-butt-edit">Edit</td>
+                    <td class="func-butt-delete">Delete</td>
+                </tr>
+                <tr>
+                    <td>Irving Chong</td>
+                    <td>21</td>
+                    <td>Driving Course</td>
+                    <td class="func-butt-edit">Edit</td>
+                    <td class="func-butt-delete">Delete</td>
+                </tr>
+                <tr>
+                    <td>Ivan Tan</td>
+                    <td>21</td>
+                    <td>Safety Program</td>
+                    <td class="func-butt-edit">Edit</td>
+                    <td class="func-butt-delete">Delete</td>
+                </tr>
+                <tr>
+                    <td>Irving Chong</td>
+                    <td>21</td>
+                    <td>Driving Course</td>
+                    <td class="func-butt-edit">Edit</td>
+                    <td class="func-butt-delete">Delete</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
